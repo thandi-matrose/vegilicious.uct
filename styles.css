@@ -207,7 +207,13 @@ main {
     min-width: 100px;
     margin: 0px auto;
 }
-
+main section#statement{
+    
+    width: 80%;
+    padding: var(--standard-gap);
+    margin-left: auto;
+    margin-right: auto;
+}
 main section.content-photo-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
